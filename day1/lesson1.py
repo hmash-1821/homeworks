@@ -16,11 +16,28 @@ age = 14 # ეს არის int (integer)მთელი რიცხვი
 height = 180.0 #ეს არის float ტიპის ცვლადი
 weight = 70
 #boolean (bool) ტიპის ცვლად
-knows_programming = "true"
+
+#studying_programming = "True"
 
 
 
+studying_programming = "vswavlob programirebas"
+is_londonscammer  = True
 
 #homework ერთ ხაზზში გამოვიტანოთ ჩვენი პირადი ინფორმაცია
 
-print("me mqvia" + " " + name + " " + surname + " " + "var" + " " + str(age) + "" + "wlis" +  " " + "simagle" + str(height) +" " + "wona" + " " + str(weight) + " " + "kilogrami")
+
+#first hard way
+
+print("me mqvia" + " " + name + " " + surname + " " + "var" + " " + str(age) + "" + "wlis" +  " " + "simagle" + str(height) +" " + "wona" + " " + str(weight) + " " + "kilogrami" + " " + studying_programming)
+
+
+#second easier way
+
+everything = "me mqvia temo maghlakelidze var 14 wlis simagle 180.0 wona 70 kilogrami vswavlob programirebas.."
+
+print(everything)
+
+
+
+
